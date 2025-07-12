@@ -10,14 +10,16 @@
 		1A2B3C4D5E6F78901234567A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7890123456788 /* AppDelegate.swift */; };
 		1A2B3C4D5E6F78901234567A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7890123456786 /* SceneDelegate.swift */; };
 		1A2B3C4D5E6F78901234567A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7890123456784 /* ViewController.swift */; };
+		1A2B3C4D5E6F78901234567A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7890123456782 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A2B3C4D5E6F7890123456781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A2B3C4D5E6F7890123456782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A2B3C4D5E6F7890123456784 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A2B3C4D5E6F7890123456786 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1A2B3C4D5E6F7890123456788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A2B3C4D5E6F7890123456789 /* MyFirstIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2B3C4D5E6F7890123456789 /* LoveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +36,7 @@
 		1A2B3C4D5E6F7890123456777 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A2B3C4D5E6F7890123456789 /* MyFirstIOSApp.app */,
+				1A2B3C4D5E6F7890123456789 /* LoveApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -45,6 +47,7 @@
 				1A2B3C4D5E6F7890123456788 /* AppDelegate.swift */,
 				1A2B3C4D5E6F7890123456786 /* SceneDelegate.swift */,
 				1A2B3C4D5E6F7890123456784 /* ViewController.swift */,
+				1A2B3C4D5E6F7890123456782 /* Assets.xcassets */,
 				1A2B3C4D5E6F7890123456781 /* Info.plist */,
 			);
 			path = MyFirstIOSApp;
@@ -61,21 +64,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A2B3C4D5E6F7890123456776 /* MyFirstIOSApp */ = {
+		1A2B3C4D5E6F7890123456776 /* LoveApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A2B3C4D5E6F7890123456775 /* Build configuration list for PBXNativeTarget "MyFirstIOSApp" */;
+			buildConfigurationList = 1A2B3C4D5E6F7890123456775 /* Build configuration list for PBXNativeTarget "LoveApp" */;
 			buildPhases = (
 				1A2B3C4D5E6F7890123456774 /* Sources */,
-				1A2B3C4D5E6F7890123456780 /* Frameworks */,
 				1A2B3C4D5E6F7890123456773 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyFirstIOSApp;
-			productName = MyFirstIOSApp;
-			productReference = 1A2B3C4D5E6F7890123456789 /* MyFirstIOSApp.app */;
+			name = LoveApp;
+			productName = LoveApp;
+			productReference = 1A2B3C4D5E6F7890123456789 /* LoveApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -93,7 +95,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1A2B3C4D5E6F7890123456771 /* Build configuration list for PBXProject "MyFirstIOSApp" */;
+			buildConfigurationList = 1A2B3C4D5E6F7890123456771 /* Build configuration list for PBXProject "LoveApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -106,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A2B3C4D5E6F7890123456776 /* MyFirstIOSApp */,
+				1A2B3C4D5E6F7890123456776 /* LoveApp */,
 			);
 		};
 /* End PBXProject section */
@@ -116,6 +118,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A2B3C4D5E6F78901234567A4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +157,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.boyurartem.MyFirstIOSApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyurartem.LoveApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -181,7 +184,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.boyurartem.MyFirstIOSApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyurartem.LoveApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A2B3C4D5E6F7890123456771 /* Build configuration list for PBXProject "MyFirstIOSApp" */ = {
+		1A2B3C4D5E6F7890123456771 /* Build configuration list for PBXProject "LoveApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A2B3C4D5E6F7890123456770 /* Debug */,
@@ -319,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A2B3C4D5E6F7890123456775 /* Build configuration list for PBXNativeTarget "MyFirstIOSApp" */ = {
+		1A2B3C4D5E6F7890123456775 /* Build configuration list for PBXNativeTarget "LoveApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A2B3C4D5E6F7890123456768 /* Debug */,
